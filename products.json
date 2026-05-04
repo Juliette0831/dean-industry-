@@ -1,74 +1,106 @@
 [
   {
     "id": 1,
-    "category": { "zh": "带锯机", "en": "Band Saw" },
-    "name": { "zh": "立式带锯机", "en": "Vertical Band Saw" },
+    "category": { "zh": "电子锯", "en": "Panel Saw" },
+    "name": { "zh": "SCM 电子锯", "en": "SCM Electronic Panel Saw" },
     "desc": {
-      "zh": "功率15KW，锯轮直径800mm，适合厚板及原木切割，运行平稳",
-      "en": "15KW motor, 800mm wheel diameter, suitable for thick board and log cutting, stable operation"
+      "zh": "意大利SCM品牌电子裁板锯，精度高，适合大板精密裁切，运行稳定",
+      "en": "Italian SCM brand electronic panel saw, high precision, suitable for large board precision cutting, stable operation"
     },
     "price": { "zh": "询价", "en": "Contact for Price" },
     "status": { "zh": "有货", "en": "Available" },
-    "image": ""
+    "image": "images/scm-saw/1.jpg",
+    "gallery": ["images/scm-saw/1.jpg","images/scm-saw/2.jpg","images/scm-saw/3.jpg","images/scm-saw/4.jpg","images/scm-saw/5.jpg","images/scm-saw/6.jpg","images/scm-saw/7.jpg","images/scm-saw/8.jpg"]
   },
   {
     "id": 2,
-    "category": { "zh": "封边机", "en": "Edge Bander" },
-    "name": { "zh": "全自动直线封边机", "en": "Automatic Linear Edge Bander" },
+    "category": { "zh": "电子锯", "en": "Panel Saw" },
+    "name": { "zh": "豪迈 全自动计算机板材开料锯", "en": "HOMAG Fully Automatic CNC Panel Saw" },
     "desc": {
-      "zh": "封边厚度0.4–3mm，进给速度12–20m/min，适用于板式家具生产",
-      "en": "Edge thickness 0.4–3mm, feed speed 12–20m/min, suitable for panel furniture production"
+      "zh": "德国豪迈全自动CNC开料锯，计算机控制自动排版，效率高，适合大批量板材裁切",
+      "en": "German HOMAG fully automatic CNC panel saw, computer-controlled auto-nesting, high efficiency, ideal for large volume panel cutting"
     },
     "price": { "zh": "询价", "en": "Contact for Price" },
     "status": { "zh": "有货", "en": "Available" },
-    "image": ""
+    "image": "images/homag-auto-saw/1.jpg",
+    "gallery": ["images/homag-auto-saw/1.jpg","images/homag-auto-saw/2.jpg","images/homag-auto-saw/3.jpg","images/homag-auto-saw/4.jpg","images/homag-auto-saw/5.jpg","images/homag-auto-saw/6.jpg","images/homag-auto-saw/7.jpg"]
   },
   {
     "id": 3,
-    "category": { "zh": "数控加工中心", "en": "CNC Machining Center" },
-    "name": { "zh": "数控木工雕刻机", "en": "CNC Wood Router" },
+    "category": { "zh": "电子锯", "en": "Panel Saw" },
+    "name": { "zh": "豪迈 数控板材开料锯", "en": "HOMAG CNC Panel Saw" },
     "desc": {
-      "zh": "加工幅面1300×2500mm，主轴转速24000rpm，适合雕刻及开料",
-      "en": "Working area 1300×2500mm, spindle speed 24000rpm, ideal for engraving and cutting"
+      "zh": "德国豪迈数控电子裁板锯，锯切精度高，操作便捷，适合板式家具生产线",
+      "en": "German HOMAG CNC electronic panel saw, high cutting precision, easy operation, suitable for panel furniture production lines"
     },
     "price": { "zh": "询价", "en": "Contact for Price" },
     "status": { "zh": "有货", "en": "Available" },
-    "image": ""
+    "image": "images/homag-cnc-saw/1.jpg",
+    "gallery": ["images/homag-cnc-saw/1.jpg","images/homag-cnc-saw/2.jpg","images/homag-cnc-saw/3.jpg","images/homag-cnc-saw/4.jpg","images/homag-cnc-saw/5.jpg"]
   },
   {
     "id": 4,
-    "category": { "zh": "压刨机", "en": "Thickness Planer" },
-    "name": { "zh": "重型四面刨", "en": "Heavy Duty Four-Side Planer" },
+    "category": { "zh": "CNC钻孔中心", "en": "CNC Drilling Center" },
+    "name": { "zh": "豪迈 通过式CNC钻孔中心", "en": "HOMAG Through-Feed CNC Drilling Center" },
     "desc": {
-      "zh": "加工宽度30–230mm，四面同时刨削，适合实木线条及地板加工",
-      "en": "Processing width 30–230mm, four-side simultaneous planing, ideal for solid wood molding and flooring"
+      "zh": "德国豪迈通过式钻孔中心，多轴同步钻孔，适合板式家具批量孔位加工，效率极高",
+      "en": "German HOMAG through-feed drilling center, multi-axis simultaneous drilling, ideal for batch hole processing in panel furniture, highly efficient"
     },
     "price": { "zh": "询价", "en": "Contact for Price" },
     "status": { "zh": "有货", "en": "Available" },
-    "image": ""
+    "image": "images/homag-cnc-drill/1.jpg",
+    "gallery": ["images/homag-cnc-drill/1.jpg","images/homag-cnc-drill/2.jpg","images/homag-cnc-drill/3.jpg","images/homag-cnc-drill/4.jpg","images/homag-cnc-drill/5.jpg","images/homag-cnc-drill/6.jpg","images/homag-cnc-drill/7.jpg","images/homag-cnc-drill/8.jpg"]
   },
   {
     "id": 5,
-    "category": { "zh": "电子开料锯", "en": "Panel Saw" },
-    "name": { "zh": "电子裁板锯", "en": "Electronic Panel Saw" },
+    "category": { "zh": "钻孔中心", "en": "Drilling Center" },
+    "name": { "zh": "豪迈 钻孔中心", "en": "HOMAG Drilling Center" },
     "desc": {
-      "zh": "最大锯切宽度3200mm，锯切精度±0.1mm，适用于大板精密裁切",
-      "en": "Max cutting width 3200mm, cutting precision ±0.1mm, suitable for precision large panel cutting"
+      "zh": "德国豪迈钻孔中心，加工精度高，多排钻头配置，适合板材排孔及五金孔加工",
+      "en": "German HOMAG drilling center, high machining precision, multi-row drill configuration, suitable for dowel hole and hardware hole processing"
     },
     "price": { "zh": "询价", "en": "Contact for Price" },
     "status": { "zh": "有货", "en": "Available" },
-    "image": ""
+    "image": "images/homag-drill/1.jpg",
+    "gallery": ["images/homag-drill/1.jpg","images/homag-drill/2.jpg","images/homag-drill/3.jpg","images/homag-drill/4.jpg","images/homag-drill/5.jpg","images/homag-drill/6.jpg"]
   },
   {
     "id": 6,
-    "category": { "zh": "砂光机", "en": "Sanding Machine" },
-    "name": { "zh": "宽带砂光机", "en": "Wide Belt Sander" },
+    "category": { "zh": "封边机", "en": "Edge Bander" },
+    "name": { "zh": "豪迈 左式+右式直线封边机 连线", "en": "HOMAG Left + Right Linear Edge Bander Line" },
     "desc": {
-      "zh": "砂光宽度1300mm，双砂架，适用于板材表面精细处理及厚度校准",
-      "en": "Sanding width 1300mm, double sanding heads, suitable for fine surface finishing and thickness calibration"
+      "zh": "德国豪迈左右式封边机连线，实现四面自动封边，效率高，封边质量稳定，适合大批量生产",
+      "en": "German HOMAG left and right edge bander line, achieving automatic four-side banding, high efficiency, consistent quality, ideal for mass production"
     },
     "price": { "zh": "询价", "en": "Contact for Price" },
     "status": { "zh": "有货", "en": "Available" },
-    "image": ""
+    "image": "images/homag-edgebander/1.jpg",
+    "gallery": ["images/homag-edgebander/1.jpg","images/homag-edgebander/2.jpg","images/homag-edgebander/3.jpg","images/homag-edgebander/4.jpg","images/homag-edgebander/5.jpg","images/homag-edgebander/6.jpg","images/homag-edgebander/7.jpg","images/homag-edgebander/8.jpg","images/homag-edgebander/9.jpg","images/homag-edgebander/10.jpg","images/homag-edgebander/11.jpg","images/homag-edgebander/12.jpg"]
+  },
+  {
+    "id": 7,
+    "category": { "zh": "贴面压机", "en": "Laminating Press" },
+    "name": { "zh": "温康纳 高效率三维贴面压机", "en": "Wemhöner High-Efficiency 3D Laminating Press" },
+    "desc": {
+      "zh": "德国温康纳三维贴面热压机，可实现复杂曲面贴面，压力均匀，适合门板及异形件生产",
+      "en": "German Wemhöner 3D laminating hot press, capable of complex curved surface lamination, uniform pressure, suitable for door panels and shaped components"
+    },
+    "price": { "zh": "询价", "en": "Contact for Price" },
+    "status": { "zh": "有货", "en": "Available" },
+    "image": "images/wemhoner-press/1.jpg",
+    "gallery": ["images/wemhoner-press/1.jpg","images/wemhoner-press/2.jpg","images/wemhoner-press/3.jpg","images/wemhoner-press/4.jpg","images/wemhoner-press/5.jpg","images/wemhoner-press/6.jpg","images/wemhoner-press/7.jpg","images/wemhoner-press/8.jpg","images/wemhoner-press/9.jpg","images/wemhoner-press/10.jpg"]
+  },
+  {
+    "id": 8,
+    "category": { "zh": "电子锯", "en": "Panel Saw" },
+    "name": { "zh": "谢林 电子锯", "en": "Schelling Electronic Panel Saw" },
+    "desc": {
+      "zh": "奥地利谢林电子裁板锯，锯切精度高，自动进给，适合高精度大板裁切作业",
+      "en": "Austrian Schelling electronic panel saw, high cutting precision, automatic feed, suitable for high-precision large board cutting"
+    },
+    "price": { "zh": "询价", "en": "Contact for Price" },
+    "status": { "zh": "有货", "en": "Available" },
+    "image": "images/schelling-saw/1.jpg",
+    "gallery": ["images/schelling-saw/1.jpg","images/schelling-saw/2.jpg","images/schelling-saw/3.jpg","images/schelling-saw/4.jpg","images/schelling-saw/5.jpg","images/schelling-saw/6.jpg","images/schelling-saw/7.jpg","images/schelling-saw/8.jpg"]
   }
 ]
