@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "category": { "zh": "带锯机", "en": "Band Saw" },
+    "name": { "zh": "立式带锯机", "en": "Vertical Band Saw" },
+    "desc": {
+      "zh": "功率15KW，锯轮直径800mm，适合厚板及原木切割，运行平稳",
+      "en": "15KW motor, 800mm wheel diameter, suitable for thick board and log cutting, stable operation"
+    },
+    "price": { "zh": "询价", "en": "Contact for Price" },
+    "status": { "zh": "有货", "en": "Available" },
+    "image": ""
+  },
+  {
+    "id": 2,
+    "category": { "zh": "封边机", "en": "Edge Bander" },
+    "name": { "zh": "全自动直线封边机", "en": "Automatic Linear Edge Bander" },
+    "desc": {
+      "zh": "封边厚度0.4–3mm，进给速度12–20m/min，适用于板式家具生产",
+      "en": "Edge thickness 0.4–3mm, feed speed 12–20m/min, suitable for panel furniture production"
+    },
+    "price": { "zh": "询价", "en": "Contact for Price" },
+    "status": { "zh": "有货", "en": "Available" },
+    "image": ""
+  },
+  {
+    "id": 3,
+    "category": { "zh": "数控加工中心", "en": "CNC Machining Center" },
+    "name": { "zh": "数控木工雕刻机", "en": "CNC Wood Router" },
+    "desc": {
+      "zh": "加工幅面1300×2500mm，主轴转速24000rpm，适合雕刻及开料",
+      "en": "Working area 1300×2500mm, spindle speed 24000rpm, ideal for engraving and cutting"
+    },
+    "price": { "zh": "询价", "en": "Contact for Price" },
+    "status": { "zh": "有货", "en": "Available" },
+    "image": ""
+  },
+  {
+    "id": 4,
+    "category": { "zh": "压刨机", "en": "Thickness Planer" },
+    "name": { "zh": "重型四面刨", "en": "Heavy Duty Four-Side Planer" },
+    "desc": {
+      "zh": "加工宽度30–230mm，四面同时刨削，适合实木线条及地板加工",
+      "en": "Processing width 30–230mm, four-side simultaneous planing, ideal for solid wood molding and flooring"
+    },
+    "price": { "zh": "询价", "en": "Contact for Price" },
+    "status": { "zh": "有货", "en": "Available" },
+    "image": ""
+  },
+  {
+    "id": 5,
+    "category": { "zh": "电子开料锯", "en": "Panel Saw" },
+    "name": { "zh": "电子裁板锯", "en": "Electronic Panel Saw" },
+    "desc": {
+      "zh": "最大锯切宽度3200mm，锯切精度±0.1mm，适用于大板精密裁切",
+      "en": "Max cutting width 3200mm, cutting precision ±0.1mm, suitable for precision large panel cutting"
+    },
+    "price": { "zh": "询价", "en": "Contact for Price" },
+    "status": { "zh": "有货", "en": "Available" },
+    "image": ""
+  },
+  {
+    "id": 6,
+    "category": { "zh": "砂光机", "en": "Sanding Machine" },
+    "name": { "zh": "宽带砂光机", "en": "Wide Belt Sander" },
+    "desc": {
+      "zh": "砂光宽度1300mm，双砂架，适用于板材表面精细处理及厚度校准",
+      "en": "Sanding width 1300mm, double sanding heads, suitable for fine surface finishing and thickness calibration"
+    },
+    "price": { "zh": "询价", "en": "Contact for Price" },
+    "status": { "zh": "有货", "en": "Available" },
+    "image": ""
+  }
+]
