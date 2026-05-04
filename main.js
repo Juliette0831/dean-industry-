@@ -14,8 +14,9 @@ const i18n = {
     stat3Num:    '50+',  stat3Label: '全球合作客户',
     productsTitle: '产品展示',
     contactTitle:  '联系我们',
-    contactEmailLabel:   '邮箱',
-    contactPhoneLabel:   '电话 / 微信',
+    contactEmailLabel:   '邮箱 / Email',
+    contactWechatLabel:  '微信 / WeChat',
+    contactPhoneLabel:   '电话 / WhatsApp',
     contactLinkedInLabel:'LinkedIn',
     footerText: '© 2026 DEAN INDUSTRY 德安工业. All rights reserved.',
   },
@@ -33,7 +34,8 @@ const i18n = {
     productsTitle: 'Our Products',
     contactTitle:  'Contact Us',
     contactEmailLabel:   'Email',
-    contactPhoneLabel:   'Phone / WeChat',
+    contactWechatLabel:  'WeChat',
+    contactPhoneLabel:   'Phone / WhatsApp',
     contactLinkedInLabel:'LinkedIn',
     footerText: '© 2026 DEAN INDUSTRY. All rights reserved.',
   }
@@ -59,6 +61,7 @@ function applyLang() {
   s('products-title').textContent     = t.productsTitle;
   s('contact-title').textContent      = t.contactTitle;
   s('contact-email-label').textContent    = t.contactEmailLabel;
+  s('contact-wechat-label').textContent   = t.contactWechatLabel;
   s('contact-phone-label').textContent    = t.contactPhoneLabel;
   s('contact-linkedin-label').textContent = t.contactLinkedInLabel;
   s('footer-text').textContent        = t.footerText;
