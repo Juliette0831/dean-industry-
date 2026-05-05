@@ -163,10 +163,36 @@ function renderProducts() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('lang-select').addEventListener('change', e => {
-    lang = e.target.value;
+function switchLang(newLang) {
+  const main = document.getElementById('main-content');
+  main.classList.add('fading');
+  setTimeout(() => {
+    lang = newLang;
     applyLang();
+    main.classList.remove('fading');
+  }, 150);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Language switcher
+  document.getElementById('lang-select').addEventListener('change', e => {
+    switchLang(e.target.value);
   });
+
+  // Scroll-reveal for sections
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.section-inner').forEach(el => {
+    el.classList.add('will-animate');
+    observer.observe(el);
+  });
+
   applyLang();
 });
